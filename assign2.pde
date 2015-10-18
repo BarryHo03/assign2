@@ -54,6 +54,8 @@ void draw() {
         if(mousePressed){
           gameState=GAME_RUN;
           h=195;
+          x=600;
+          y=200;
         }else{
         image(end1,0,0);
         }
