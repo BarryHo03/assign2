@@ -53,7 +53,7 @@ void draw() {
     if(mouseY >310 && mouseY<350 && mouseX>200 && mouseX<440){
         if(mousePressed){
           gameState=GAME_RUN;
-          h=195;
+          h=39;
           x=600;
           y=200;
         }else{
